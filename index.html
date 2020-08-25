@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <title>Inferesac</title>
+  </head>
+  <body>
+    <nav>
+      <div class="nav-wrapper container">
+        <a href="#" class="brand-logo"
+          ><img width="120" src="./assets/img/logo.png" alt=""
+        /></a>
+        <ul id="nav-mobile" class="right hide-on-med-and-down">
+          <li><a href="sass.html">Inicio</a></li>
+          <li><a href="badges.html">Quiénes Somos</a></li>
+          <li><a href="collapsible.html">Productos</a></li>
+        </ul>
+      </div>
+    </nav>
+    <!-- Slider -->
+    <section id="slider" class="slider">
+      <div class="carousel carousel-slider center">
+        <div class="carousel-fixed-item center">
+          <a class="btn waves-effect white grey-text darken-text-2"
+            >Ver Productos</a
+          >
+        </div>
+        <div class="carousel-item " href="#one!">
+          <h2>Tu necesidad es nuestro mayor desafío.</h2>
+          <img src="https://lorempixel.com/800/400/food/1" />
+        </div>
+        <div class="carousel-item" href="#two!">
+          <h2>Second Panel</h2>
+          <img src="https://lorempixel.com/800/400/food/1" />
+        </div>
+        <div class="carousel-item " href="#three!">
+          <h2>Third Panel</h2>
+          <img src="https://lorempixel.com/800/400/food/1" />
+        </div>
+      </div>
+    </section>
+    <!-- Final Slider -->
+    <!-- Footer -->
+    <div class="row redes-sociales m-0">
+      <div class="col l7"></div>
+      <div class="col l5 redes p-0">
+        <p>Siguenos en nuestras redes</p>
+        <ul>
+          <li>
+            <a href="">
+              <i class="fa fa-linkedin" aria-hidden="true"></i>
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <i class="fa fa-facebook" aria-hidden="true"></i>
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <i class="fa fa-instagram" aria-hidden="true"></i>
+            </a>
+          </li>
+        </ul>
+        <div class="picture">
+          <img src="" alt="" />
+        </div>
+      </div>
+    </div>
+    <footer class="page-footer p-0">
+      <div class="container">
+        <div class="row m-0">
+          <div class="col l4 s12">
+            <p class="white-text left">+51 999 999 999</p>
+          </div>
+          <div class="col l4 s12">
+            <p class="white-text center">info@inferesac.com</p>
+          </div>
+          <div class="col l4 s12">
+            <p class="white-text right">Lima, Perú</p>
+          </div>
+        </div>
+      </div>
+      <div class="footer-copyright">
+        <div class="container">
+          <p class="white-text center m-0">
+            © 2020 Copyright Text
+          </p>
+        </div>
+      </div>
+    </footer>
+    <!-- Fin Footer -->
+  </body>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <script>
+    var elems = document.querySelectorAll('.carousel.carousel-slider');
+    var instance = M.Carousel.init(elems);
+  </script>
+</html>
